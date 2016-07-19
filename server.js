@@ -6,7 +6,7 @@ var mongojs = require("mongojs");
 var db = mongojs("contactlist", ["contactlist"]);
 var bodyParser = require("body-parser");
 
-// File upload related
+// File upload related libraries
 var Grid    = require('gridfs-stream');
 var fs      = require('fs');
 
